@@ -1,0 +1,32 @@
+experiences:
+
+
+- place: "University of CAS"
+  time: "2019 - 2025"
+  title: "Ph.D. Student"
+  subtitle: "Inovation Academy for Microsatellite, Chinese Academy of Sciences"
+  category: "school"
+- place: "HEAD Aerospace Technology Co. "
+  time: "Mar – Aug 2021"
+  title: "Intern"
+  subtitle: "VDES system design and development"
+  category: "work"
+  
+- place: "ShanghaiTech University"
+  time: "2017 - 2019"
+  title: "M.Sc. Student"
+  subtitle: "School of Information Science and Technology"
+  category: "school"
+
+
+- place: "Shanghai Ok Space Co Ltd."
+  time: "Apl – Sep 2017"
+  title: "Intern"
+  subtitle: "RTK high-precision positioning algorithms development"
+  category: "work"
+
+- place: "Harbin Institute of Technology"
+  time: "2011 - 2015"
+  title: "B.Sc. Student"
+  subtitle: "Electronic and Information Engineering"
+  category: "school"

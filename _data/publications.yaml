@@ -1,0 +1,42 @@
+papers:
+
+  - title: "Agile Earth Observation Satellite Constellation Mission Planning based on Multi-Agent Transformer"
+    authors: "<b>Xiaohe He</b>, Junyan Xiang, Mubiao Yan, Chengxi Zhang, Zhuochen Xie, Xuwen Liang"
+    venue: "IEICE Transactions on Fundamentals, 2025."
+    paper_pdf: "/assets/publications/hexh2025agile.pdf"
+    selected: y
+
+  - title: "Autonomous Agile Earth Observation Satellite Mission Planning with Task Clustering"
+    authors: "<b>Xiaohe He</b>, Zongwang Li, Wei Huang, Junyan Xiang, Chengxi Zhang, Zhuochen Xie, Xuwen Liang"
+    venue: "IEICE Transactions on Fundamentals, 2025."
+    paper_pdf: "/assets/publications/hexh2025autonomous.pdf"
+    # code: "https://github.com/saveski-lab/supernotes"
+    selected: y
+
+  - title: "Integrated Clustering and Mission Planning for Agile Earth Observation Satellite Constellations"
+    authors: "<b>Xiaohe He</b>, Junyan Xiang, Mubiao Yan, Chengxi Zhang, Zhuochen Xie, and Xuwen Liang"
+    venue: "IEICE Transactions on Electronics, 2025."
+    paper_pdf: "/assets/publications/hexh2025integrated.pdf"
+    selected: y
+  - title: "Distributed dynamic routing for leo satellite networks with temporal graph convolutions and imitation acceleration"
+    authors: "Junyan Xiang, <b>Xiaohe He</b>,  Yu Zhao, Zhuochen Xie, and Xuwen Liang"
+    venue: "IEEE Communications Letters, 2025."
+    paper_pdf: "/assets/publications/xiangjy2025distributed.pdf"
+    selected: y
+  - title: "Dynamic fine-grained task splitting and offloading in integrated satellite-terrestrial network based on multi-branch ddqn"
+    authors: "Mubiao Yan, Xiaohe He, Luyao Wang, Wenxin Yang, Zhangyuhang Liu, Hao Zhou, Zhuochen Xie, and Huijie Liu."
+    venue: "IEICE Transactions on Fundamentals, 2026."
+    paper_pdf: "/assets/publications/yanmb2026dynamic.pdf"
+    selected: y
+  - title: "Heterogeneous temporal graph powered drl algorithm for channel allocation in maritime iot systems."
+    authors: "Zongwang Li, Zhuochen Xie, Xiaohe He, and Xuwen Liang."
+    venue: "Computer Communications, 213:260–270, 2024."
+    paper_pdf: "/assets/publications/lizw2024heterogeneous.pdf"
+    selected: y
+  - title: "Drl-based dynamic destroy approaches for agile-satellite mission planning."
+    authors: "Wei Huang, Zongwang Li, Xiaohe He, Junyan Xiang, Xu Du, and Xuwen Liang."
+    venue: "CRemote Sensing, 15(18):4503, 2023."
+    paper_pdf: "/assets/publications/huangw2023drl.pdf"
+    selected: y
+
+    
