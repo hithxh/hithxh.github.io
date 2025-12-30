@@ -1,0 +1,22 @@
+---
+layout: default
+title: Blog
+---
+
+<div class="docs-section" id="blog">
+    <h4>Blog</h4>
+    <!-- <p>Welcome to my blog. Here are my thoughts and updates.</p> -->
+
+    <ul>
+        {% assign blog_files = site.pages | where_exp: "item", "item.path contains 'assets/blog/'" | sort: 'date' |
+        reverse %}
+        {% for post in blog_files %}
+        {% if post.title %}
+        <li>
+            <span style="font-family: monospace;">{{ post.date | date: "%Y-%m-%d" }}</span> &raquo;
+            <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </li>
+        {% endif %}
+        {% endfor %}
+    </ul>
+</div>

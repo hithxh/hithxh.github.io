@@ -6,3 +6,9 @@ includes:    ./_includes
 collections:
   projects:
     output: true
+
+defaults:
+  - scope:
+      path: "assets/blog"
+    values:
+      layout: "blog"

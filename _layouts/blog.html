@@ -1,0 +1,25 @@
+---
+layout: default
+---
+<div class="docs-section">
+  <h4>{{ page.title }}</h4>
+  <p><i>{{ page.date | date: "%B %-d, %Y" }}</i></p>
+
+  <script>
+    window.MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']]
+      }
+    };
+  </script>
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <div class="blog-post-content">
+    {{ content }}
+  </div>
+
+  <div style="margin-top: 50px;">
+    <a href="{{ '/blog.html' | prepend: site.baseurl }}" class="button">Back to Blog</a>
+  </div>
+</div>
