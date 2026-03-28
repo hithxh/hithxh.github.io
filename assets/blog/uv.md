@@ -1,7 +1,10 @@
 ---
 title: uv
 date: 2026-01-01
+tags: [python]
 ---
+
+
 
 ## 简介
 
