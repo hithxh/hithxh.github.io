@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title>Xiao He | uv</title>
+  <meta name="description" content="Homepage of Xiaohe He">
+  <meta name="author" content="Xiaohe He">
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href='https://fonts.googleapis.com/css?family=Raleway:400,300,600' rel='stylesheet' type='text/css'>
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href=/libs/external/skeleton/normalize.css>
+  <link rel="stylesheet" href=/libs/external/skeleton/skeleton.css>
+  <link rel="stylesheet" href=/libs/custom/my_css.css>
+  <link rel="stylesheet" href=/libs/custom/blog.css>
+  <link rel="stylesheet" href=/libs/custom/syntax.css>
+
+  <!-- JQuery
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <script src=/libs/external/jquery-3.1.1.min.js></script>
+
+  <!-- Font-Awesome
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href=/libs/external/font-awesome-4.7.0/css/font-awesome.min.css>
+
+  <!-- Skeleton tabs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href=/libs/external/skeleton_tabs/skeleton-tabs.css>
+  <script src=/libs/external/skeleton_tabs/skeleton-tabs.js></script>
+
+  <!-- Timeline
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href=/libs/external/timeline.css>
+
+  <!-- Scripts
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <!--<link rel="stylesheet" href=/libs/external/github-prettify-theme.css>-->
+  <script src=/libs/custom/my_js.js></script>
+
+  <!-- Favicon
+       –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <!-- 
+  <link rel="icon" type="image/png" href=/libs/icon.png>
+  <link rel="shortcut icon" type="image/png" href=/libs/icon.png>
+  -->
+
+</head>
+
+<body>
+
+  <!-- Primary Page Layout
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <div class="container">
+
+    <section class="header">
+      <div class="row">
+        <div class="three columns">
+          <a href="/"><img class="u-max-full-width"
+              src='/assets/profile-pics/hexh.jpg'></a>
+        </div>
+        <div class="nine columns main-description">
+          <h1>Xiao He</h1>
+          <p></p>
+          <p></p>
+          <p>hithxh [AT] gmail.com</p>
+          <p>
+            <!-- <span onclick="window.open('')" style="cursor: pointer">
+                <i class="fa fa-twitter" aria-hidden="true"></i>
+              </span>
+
+              <span onclick="window.open('')" style="cursor: pointer">
+                <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+              </span> -->
+
+            <span onclick="window.open('https://github.com/hithxh')" style="cursor: pointer">
+              <i class="fa fa-github" aria-hidden="true"></i>
+            </span>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <div class="navbar-spacer"></div>
+    <nav class="navbar">
+      <div class="container">
+        <ul class="navbar-list">
+          <li class="navbar-item"><a class="navbar-link" href=/index.html#bio>Bio</a>
+          </li>
+          <li class="navbar-item"><a class="navbar-link" href=/index.html#publications>Publications</a></li>
+          <!---
+          <li class="navbar-item"><a class="navbar-link" href=/index.html#people>People</a></li>
+          --->
+          <li class="navbar-item"><a class="navbar-link" href=/index.html#resume>Resume</a></li>
+          <li class="navbar-item"><a class="navbar-link" href=/blog.html>Blog</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="docs-section">
+  <h4>uv</h4>
+  <p><i>January 1, 2026</i></p>
+
+  <script>
+    window.MathJax = {
+      tex: {
+        inlineMath: [['$', '$'], ['\\(', '\\)']]
+      }
+    };
+  </script>
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+  <div class="blog-post-content">
+    <h2 id="简介">简介</h2>
+
+<p><strong>uv</strong> 是由 <a href="https://astral.sh/">Astral</a> 团队（Ruff 的开发者）使用 Rust 编写的极速 Python 包和项目管理器。它旨在成为 pip、pip-tools、pipx、poetry、pyenv、virtualenv 等工具的统一替代方案。</p>
+
+<h3 id="核心特点">核心特点</h3>
+
+<ul>
+  <li>🚀 <strong>极速</strong>：比 pip 快 10-100 倍</li>
+  <li>📦 <strong>统一管理</strong>：集成包管理、虚拟环境、Python 版本管理于一体</li>
+  <li>🔒 <strong>可靠的依赖解析</strong>：生成跨平台的锁文件</li>
+  <li>💾 <strong>全局缓存</strong>：节省磁盘空间，避免重复下载</li>
+  <li>🔧 <strong>兼容性</strong>：支持 pip 命令和 <code class="language-plaintext highlighter-rouge">pyproject.toml</code></li>
+</ul>
+
+<hr />
+
+<h2 id="安装">安装</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>平台</th>
+      <th>命令</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>macOS / Linux</td>
+      <td><code class="language-plaintext highlighter-rouge">curl -LsSf https://astral.sh/uv/install.sh \| sh</code></td>
+    </tr>
+    <tr>
+      <td>Windows</td>
+      <td><code class="language-plaintext highlighter-rouge">powershell -c "irm https://astral.sh/uv/install.ps1 \| iex"</code></td>
+    </tr>
+    <tr>
+      <td>pip</td>
+      <td><code class="language-plaintext highlighter-rouge">pip install uv</code></td>
+    </tr>
+    <tr>
+      <td>Homebrew</td>
+      <td><code class="language-plaintext highlighter-rouge">brew install uv</code></td>
+    </tr>
+  </tbody>
+</table>
+
+<p>验证：<code class="language-plaintext highlighter-rouge">uv --version</code></p>
+
+<hr />
+
+<h2 id="常用命令">常用命令</h2>
+
+<h3 id="项目管理">项目管理</h3>
+
+<h4 id="创建新项目">创建新项目</h4>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># 在新目录创建项目</span>
+uv init hello-world
+<span class="nb">cd </span>hello-world
+
+<span class="c"># 或在当前目录初始化</span>
+<span class="nb">mkdir </span>hello-world <span class="o">&amp;&amp;</span> <span class="nb">cd </span>hello-world
+uv init
+</code></pre></div></div>
+
+<p>uv 会自动创建以下文件结构：</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>.
+├── .gitignore
+├── .python-version
+├── README.md
+├── main.py
+└── pyproject.toml
+</code></pre></div></div>
+
+<h4 id="运行项目">运行项目</h4>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># 运行 main.py</span>
+uv run main.py
+
+<span class="c"># 运行带参数的脚本</span>
+uv run python script.py <span class="nt">--arg</span> value
+</code></pre></div></div>
+
+<p>首次运行时，uv 会自动创建虚拟环境 <code class="language-plaintext highlighter-rouge">.venv</code> 和锁文件 <code class="language-plaintext highlighter-rouge">uv.lock</code>。</p>
+
+<h3 id="依赖管理">依赖管理</h3>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># 添加依赖</span>
+uv add requests
+uv add pandas numpy
+
+<span class="c"># 添加开发依赖</span>
+uv add <span class="nt">--dev</span> pytest ruff
+
+<span class="c"># 添加指定版本</span>
+uv add <span class="s2">"requests&gt;=2.28.0"</span>
+
+<span class="c"># 移除依赖</span>
+uv remove requests
+
+<span class="c"># 同步依赖（根据锁文件安装）</span>
+uv <span class="nb">sync</span>
+
+<span class="c"># 更新锁文件</span>
+uv lock
+</code></pre></div></div>
+
+<h3 id="python-版本管理">Python 版本管理</h3>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># 查看可用的 Python 版本</span>
+uv python list
+
+<span class="c"># 安装指定版本</span>
+uv python <span class="nb">install </span>3.12
+
+<span class="c"># 固定项目 Python 版本</span>
+uv python pin 3.12
+</code></pre></div></div>
+
+<h3 id="包管理pip-兼容模式">包管理（pip 兼容模式）</h3>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># 安装包（类似 pip install）</span>
+uv pip <span class="nb">install </span>requests
+
+<span class="c"># 从 requirements.txt 安装</span>
+uv pip <span class="nb">install</span> <span class="nt">-r</span> requirements.txt
+
+<span class="c"># 生成 requirements.txt</span>
+uv pip compile pyproject.toml <span class="nt">-o</span> requirements.txt
+
+<span class="c"># 查看已安装的包</span>
+uv pip list
+
+<span class="c"># 卸载包</span>
+uv pip uninstall requests
+</code></pre></div></div>
+
+<h3 id="工具管理替代-pipx">工具管理（替代 pipx）</h3>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># 全局安装工具</span>
+uv tool <span class="nb">install </span>ruff
+uv tool <span class="nb">install </span>black
+
+<span class="c"># 运行工具（无需安装）</span>
+uvx ruff check <span class="nb">.</span>
+uvx black <span class="nt">--check</span> <span class="nb">.</span>
+
+<span class="c"># 查看已安装的工具</span>
+uv tool list
+</code></pre></div></div>
+
+<h3 id="虚拟环境管理">虚拟环境管理</h3>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># 创建虚拟环境</span>
+uv venv
+
+<span class="c"># 指定 Python 版本创建</span>
+uv venv <span class="nt">--python</span> 3.12
+
+<span class="c"># 指定目录</span>
+uv venv .venv-test
+</code></pre></div></div>
+
+<hr />
+
+<h2 id="国内源配置">国内源配置</h2>
+
+<p>由于网络原因，建议配置国内镜像源以加速下载。</p>
+
+<h4 id="1-项目级配置仅当前项目在-pyprojecttoml-中">1. <strong>项目级配置</strong>（仅当前项目，在 <code class="language-plaintext highlighter-rouge">pyproject.toml</code> 中）</h4>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[[tool.uv.index]]
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+default = true  # 可选：替换官方 PyPI
+</code></pre></div></div>
+<h4 id="2--命令行临时指定单次">2.  命令行临时指定（单次）</h4>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>uv pip install xxx --default-index https://pypi.tuna.tsinghua.edu.cn/simple
+</code></pre></div></div>
+<h4 id="3-全局配置">3. <strong>全局配置</strong></h4>
+<p>编辑用户级 <code class="language-plaintext highlighter-rouge">uv.toml</code> 文件：</p>
+<ul>
+  <li><strong>Linux/macOS</strong>：<code class="language-plaintext highlighter-rouge">~/.config/uv/uv.toml</code></li>
+  <li><strong>Windows</strong>：<code class="language-plaintext highlighter-rouge">%APPDATA%\uv\uv.toml</code>（通常 <code class="language-plaintext highlighter-rouge">C:\Users\你的用户名\AppData\Roaming\uv\uv.toml</code>）</li>
+</ul>
+
+<p>内容（以清华大学镜像为例，<strong>完全替换官方 PyPI</strong>）：</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[[index]]
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+default = true  # 这会排除官方 PyPI，即使镜像未同步某些包也会失败（适合完全信任镜像）
+</code></pre></div></div>
+
+<p>或者<strong>优先国内镜像 + 官方 PyPI 作为备用</strong>（更安全，推荐）：</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[[index]]
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+# 官方 PyPI 作为 fallback（默认就是这样，无需显式添加）
+</code></pre></div></div>
+<p>保存后生效，无需重启。</p>
+
+<h3 id="常见国内镜像优先级清华--阿里--腾讯">常见国内镜像（优先级：清华 &gt; 阿里 &gt; 腾讯）</h3>
+<ul>
+  <li>清华大学：<code class="language-plaintext highlighter-rouge">https://pypi.tuna.tsinghua.edu.cn/simple</code></li>
+  <li>阿里云：<code class="language-plaintext highlighter-rouge">https://mirrors.aliyun.com/pypi/simple/</code></li>
+  <li>腾讯云：<code class="language-plaintext highlighter-rouge">https://mirrors.cloud.tencent.com/pypi/simple/</code></li>
+  <li>豆瓣：<code class="language-plaintext highlighter-rouge">https://pypi.douban.com/simple/</code></li>
+  <li>中科大：<code class="language-plaintext highlighter-rouge">https://pypi.mirrors.ustc.edu.cn/simple/</code></li>
+</ul>
+
+<h2 id="快速参考">快速参考</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>命令</th>
+      <th>说明</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">uv init</code></td>
+      <td>初始化项目</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">uv add &lt;pkg&gt;</code></td>
+      <td>添加依赖</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">uv remove &lt;pkg&gt;</code></td>
+      <td>移除依赖</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">uv sync</code></td>
+      <td>同步依赖</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">uv lock</code></td>
+      <td>更新锁文件</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">uv run &lt;script&gt;</code></td>
+      <td>运行脚本</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">uv python install</code></td>
+      <td>安装 Python</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">uv venv</code></td>
+      <td>创建虚拟环境</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">uvx &lt;tool&gt;</code></td>
+      <td>运行工具</td>
+    </tr>
+  </tbody>
+</table>
+
+<hr />
+
+<h2 id="更多资源">更多资源</h2>
+
+<ul>
+  <li>📖 <a href="https://docs.astral.sh/uv/">官方文档</a></li>
+  <li>🐙 <a href="https://github.com/astral-sh/uv">GitHub 仓库</a></li>
+</ul>
+
+  </div>
+
+  <div style="margin-top: 50px;">
+    <a href="/blog.html" class="button">Back to Blog</a>
+  </div>
+</div>
+
+    <div class="footer">
+      <div class="row">
+        <div class="four columns">
+          Xiao He
+        </div>
+        <div class="four columns">
+          hithxh [AT] gmail.com
+        </div>
+        <div class="four columns">
+          <!-- <span onclick="window.open('')" style="cursor: pointer">
+            <i class="fa fa-twitter" aria-hidden="true"></i>
+          </span>
+          <span onclick="window.open('')" style="cursor: pointer">
+            <i class="fa fa-linkedin-square" aria-hidden="true"></i>
+          </span> -->
+          <span onclick="window.open('https://github.com/hithxh')" style="cursor: pointer">
+            <i class="fa fa-github" aria-hidden="true"></i>
+          </span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Google Analytics -->
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', '', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+  <!-- End Document
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+</body>
+
+</html>

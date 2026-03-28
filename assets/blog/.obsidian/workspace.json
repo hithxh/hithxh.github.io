@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "L5 GPUs.md",
+                "file": "LLMFromScratch.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "L5 GPUs"
+              "title": "LLMFromScratch"
             }
           }
         ]
@@ -185,8 +185,8 @@
   },
   "active": "9f53496ecb2d716e",
   "lastOpenFiles": [
-    "LLMFromScratch.md",
     "L5 GPUs.md",
+    "LLMFromScratch.md",
     "figs/gpu1.png",
     "figs",
     "untitled folder",
