@@ -4,18 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "434c73b6d2425bf5",
+        "id": "a2cacbd03ab50a98",
         "type": "tabs",
         "children": [
           {
-            "id": "9f53496ecb2d716e",
+            "id": "a8f0ada5ad7012cb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
                 "file": "LLMFromScratch.md",
                 "mode": "source",
-                "source": false
+                "source": true,
+                "backlinks": false
               },
               "icon": "lucide-file",
               "title": "LLMFromScratch"
@@ -174,23 +175,30 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:新建数据库": false,
       "switcher:打开快速切换": false,
       "graph:查看关系图谱": false,
       "canvas:新建白板": false,
       "daily-notes:打开/创建今天的日记": false,
       "templates:插入模板": false,
-      "command-palette:打开命令面板": false,
-      "bases:创建新数据库": false
+      "command-palette:打开命令面板": false
     }
   },
-  "active": "9f53496ecb2d716e",
+  "active": "a8f0ada5ad7012cb",
   "lastOpenFiles": [
-    "L5 GPUs.md",
+    "向上汇报.md",
+    "结构性竞争：理解与应对.md",
+    "未命名.md",
     "LLMFromScratch.md",
+    "thucydides-trap.md",
+    "uv.md",
+    "assets/未命名/file-20260329215915340.png",
+    "assets/未命名",
+    "assets",
+    "L5 GPUs.md",
     "figs/gpu1.png",
     "figs",
     "untitled folder",
-    "gpu1.png",
-    "未命名.md"
+    "gpu1.png"
   ]
 }
